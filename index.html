@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <main class="main-component">
+      <div class="left-side-component">
+        <h1 class="title">Stay updated!</h1>
+        <p class="desc">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <div class="para-group">
+          <div class="icon-para">
+            <img
+              src="./assets/images/icon-success.svg"
+              alt="icon-success"
+              class="success-icon"
+            />
+            <p>Product discovery and buidling what matters</p>
+          </div>
+          <div class="icon-para">
+            <img
+              src="./assets/images/icon-success.svg"
+              alt="icon-success"
+              class="success-icon"
+            />
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="icon-para">
+            <img
+              src="./assets/images/icon-success.svg"
+              alt="icon-success"
+              class="success-icon"
+            />
+            <p>And much more!</p>
+          </div>
+        </div>
+        <div class="form">
+          <label for="email-input">Email Address</label>
+          <span class="error-info"></span>
+          <input
+            type="email"
+            id="email-input"
+            placeholder="email@company.com"
+          />
+          <button class="submit-button">Subscribe to monthly new letter</button>
+        </div>
+      </div>
+      <div class="right-side-component">
+        <img
+          class="left-image"
+          src="./assets/images/illustration-sign-up-desktop.svg"
+          alt="desktop-signup-svg"
+        />
+        <img
+          class="top-image"
+          src="./assets/images/illustration-sign-up-mobile.svg"
+          alt="desktop-signup-svg"
+          style="display: none"
+        />
+      </div>
+    </main>
+    <div class="success-page" style="display: none">
+      <img src="./assets/images/icon-success.svg" alt="success-page-icon" />
+      <h1>Thanks for subscribing!</h1>
+      <p class="success-page-desc"></p>
+      <button class="dismiss-succes-modal">Dismiss message</button>
+    </div>
+
+    <!-- Success message end -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
